@@ -1,0 +1,118 @@
+html,
+body {
+  min-width: 1100px;
+}
+@media screen and (max-width: 770px) {
+  html,
+  body {
+    min-width: 0;
+  }
+}
+
+main {
+  margin-bottom: 250px;
+  margin-top: 240px;
+}
+@media screen and (max-width: 770px) {
+  main {
+    margin-bottom: 150px;
+    margin-top: 120px;
+  }
+}
+
+article {
+  max-width: 1366px;
+  padding: 0 180px;
+  box-sizing: border-box;
+  position: relative;
+  overflow-x: hidden;
+  margin: 240px auto 0;
+}
+article h2.title {
+  text-align: left;
+  font-size: 1.4rem;
+  letter-spacing: 0.36em;
+  line-height: 1.6;
+  font-weight: bold;
+  position: absolute;
+  left: 180px;
+  top: 0;
+  padding-left: 50px;
+}
+@media screen and (max-width: 770px) {
+  article h2.title {
+    font-size: 1.3;
+    letter-spacing: 0.32;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+}
+article h2.title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 1px;
+  margin-bottom: 1px;
+  margin-right: 10px;
+  background-color: #98eecc;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 1s;
+  transition-delay: 0.3s;
+}
+article h2.title.on::after {
+  width: 35px;
+}
+
+@media screen and (min-width: 1400px) {
+  article {
+    max-width: 100%;
+    padding: 0 180px;
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+    margin: 240px auto 0;
+  }
+}
+@media screen and (max-width: 770px) {
+  article {
+    padding: 0 30px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 200px auto 0;
+  }
+  article h2.title {
+    font-size: 1.4rem;
+    letter-spacing: 0.36em;
+    line-height: 1.6;
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+  }
+}
+@media screen and (max-width: 770px) and (max-width: 770px) {
+  article h2.title {
+    font-size: 1.3;
+    letter-spacing: 0.32;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  article {
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 150px auto 0;
+  }
+}
+.salon {
+  overflow: hidden;
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=salon.css.map */
