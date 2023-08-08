@@ -515,8 +515,8 @@ article h2.title.on::after {
   margin-top: 110px;
   font-weight: 800;
   letter-spacing: 0.11em;
-  font-size: 1.4rem;
-  text-align: left;
+  font-size: 1.6rem;
+  text-align: right;
   line-height: 2.4;
   width: auto;
   margin-left: 220px;
@@ -601,8 +601,8 @@ article h2.title.on::after {
   .salon .salon_text {
     font-weight: 800;
     letter-spacing: 0.04em;
-    font-size: 1.2rem;
-    text-align: left;
+    font-size: 1.4rem;
+    text-align: right;
     line-height: 2.2;
     width: 100%;
     padding-top: 0px;
