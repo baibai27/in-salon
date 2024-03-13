@@ -926,6 +926,39 @@
     <!--LoadingLib JS-->
     <script src="js/common.js"></script>
     <script src="js/index.js"></script>
+    <script type="text/javascript">
+
+      (function(d, t) {
+    
+          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+    
+          v.onload = function() {
+    
+            window.voiceflow.chat.load({
+    
+              verify: { projectID: '65e5cd83424e36078a0e1a52' },
+    
+              url: 'https://general-runtime.voiceflow.com',
+    
+              versionID: 'production'
+    
+            }).then(() => {
+    
+                setTimeout(function() {
+    
+                    window.voiceflow.chat.open();
+    
+                }, 1000);
+    
+            });
+    
+          }
+    
+          v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    
+      })(document, 'script');
+    
+    </script>
   </body>
 
   <!-- Mirrored from IN-SALON-tokyo.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jul 2023 03:16:55 GMT -->
